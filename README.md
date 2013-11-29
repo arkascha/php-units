@@ -6,8 +6,9 @@ A simple library for unit carrying mathematical computations
 When layouting things one often has to compute various positions, zoom factors, scalings and the like. 
 When the specific sizes are of dynamical nature the layout code quicky gets a confusing endless series of mathematical equations. You name it: spaghetti code. 
 This library tries to offer two approaches to solve this problem: 
-# by taking handling of units from explicit recomputation to implicit consideration, so all you have to do is name what unit a specific value is to be interpreted as
-# by offering well known methematical concepts as types which allows to think in a more high level way about layouting instead of just simple numeric values. 
+* by taking handling of units from explicit recomputation to implicit consideration, so all you have to do is name what unit a specific value is to be interpreted as
+* by offering well known methematical concepts as types which allows to think in a more high level way about layouting instead of just simple numeric values. 
+
 The code does not strive to be fast, this library is implemented in php. It only tries to help keeping the layouting code maintainable and robust. 
 It would be great if additional types would be implemented in future. in geometry what I really miss is angles and their consideration on layouting code. Also volumnes (the third dimension...) would be a welcome extension. And obviously aspects outside geometry: electric units, mechanics like forces, accelerations and pressures. Or even currencies and their exchange rates. 
 For performance optimization it might be fun to reimplement this approach in C or C++, for example as a php extension. 
