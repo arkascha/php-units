@@ -18,12 +18,12 @@ This is a short example of a header definition taken from a tfpdf application:
                                          $this->headerHeight-$this->leftHeaderPadding.$this->rightheaderPadding,
                                          units\Unit::MM);
       // a logo is placed inside the box on the left hand side
-      $pic = units\geo\Size::fromImageFile($this->logoFile1, units\Unit::MM);
+      $pic = units\geo\Size::fromImageFile($this->logo1, units\Unit::MM);
       $pos = $box->fitSize($pic, units\geo\Align::TOP | units\geo\Align::LEFT);
       list($left,$top,$width,$height) = $pos->getScalars();
       $this->Image($this->logo1, $left, $top, $width, $height, self::identifyImageFormat($this->logo1));
       // a logo is placed inside the box on the right hand side
-      $pic = units\geo\Size::fromImageFile($this->logoFile2, units\Unit::MM);
+      $pic = units\geo\Size::fromImageFile($this->logo2, units\Unit::MM);
       $pos = $box->fitSize($pic, units\geo\Align::TOP | units\geo\Align::RIGHT);
       list($left,$top,$width,$height) = $pos->getScalars();
       $this->Image($this->logo2, $left, $top, $width, $height, self::identifyImageFormat($this->logo2));
