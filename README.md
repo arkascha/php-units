@@ -1,7 +1,7 @@
-php-units
+php-unitmath
 =========
 
-A simple library for unit carrying mathematical computations
+A simple library for unit based mathematical computations
 
 When layouting things one often has to compute various positions, zoom factors, scalings and the like. 
 When the specific sizes are of dynamical nature the layout code quicky gets a confusing endless series of mathematical equations. You name it: spaghetti code. 
@@ -16,8 +16,8 @@ For performance optimization it might be fun to reimplement this approach in C o
 Example: 
 This is a short example of a header definition taken from a tfpdf application: 
 
-    use arkascha\units;
-    // $this is an object hgolding some document attributes like file paths and the like
+    use arkascha\unitmath;
+    // $this is an object holding some document attributes like file paths and the like
     try {
       // define a box inside the header by its position(x,y) and size(w,h) and a unit
       $box = units\geo\Area::fromScalars($this->leftHeaderPadding, 
