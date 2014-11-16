@@ -8,6 +8,7 @@ Copyright 2013-2014 Christian Reiner, Hamburg, Germany
 License: GNU Affero General Public License
 
 A simple library for unit based arithmetic
+===
 
 When layouting things one often has to compute various positions, zoom factors, scalings and the like. When the specific sizes are of dynamical nature the layout code quicky gets a confusing endless series of mathematical equations. You name it: spaghetti code.
 This library tries to offer two approaches to solve this problem:
