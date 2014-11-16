@@ -2,7 +2,9 @@ PHP Urithmetic
 ==============
 
 Author: Christian Reiner
+
 Copyright 2013-2014 Christian Reiner, Hamburg, Germany
+
 License: GNU Affero General Public License
 
 A simple library for unit based arithmetic
