@@ -1,10 +1,10 @@
 <?php
 /**
- * @file arkascha/units/dim.php
- * @copyright 2013-2013 Christian Reiner, Hamburg, Germany, mailto:info@christian-reiner.info
+ * @file arkascha/urithmetic/urithmetic.php
+ * @copyright 2013-2014 Christian Reiner, Hamburg, Germany, mailto:info@christian-reiner.info
  * @license GNU Affero General Public license version 3 (AGPL)
- * @author Christian Reiner <info@christian.reiner.info>
- * @brief Part of package 'Units', an implementation of unit based arithmetics
+ * @author Christian Reiner <info@christian-reiner.info>
+ * @brief Part of package 'PHP Urithmetic', an implementation of unit based arithmetic
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
@@ -22,7 +22,7 @@
  *
  */
 
-namespace arkascha\units;
+namespace arkascha\urithmetic;
 
 require_once 'exception.php';
 
